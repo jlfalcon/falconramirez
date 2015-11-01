@@ -1,0 +1,95 @@
+baseurl = "http://jlfalcon.github.io/falconramirez/"
+languageCode = "es-es"
+title = "Jose Luis Falcon Ramirez"
+theme = "hugo-creative-theme"
+
+[params]
+
+  # You can use Markdown syntax for urls [text](//url.to/source) for
+  # most longer texts.
+
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # All projects of the portfolio are defined in their own files.
+  # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+  # folder into the 'data' directory at the root of this Hugo site.
+  # For more informtion take a look at the README.
+
+  # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+  name = "Jose Luis Falcon"
+  description = "Ingeniero web"
+
+
+  # Navigation
+  [params.navigation]
+    brand = "Falcon Ramirez"
+
+    [params.navigation.links]
+      about     = "About"
+      portfolio = "Portfolio"
+      contact   = "Contact"
+
+
+  # Hero section
+  [params.hero]
+    # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+    slogan     = "Jose Luis Falcón Ramírez"
+    subtitle   = "Ingeniero Web: Drupal, Symfony y nuevas tecnologías web"
+    buttonText = "Ver más"
+
+
+  # About section
+  [params.about]
+    headline    = "Ingeniero informático y experto en tecnologías de la información"
+    description = "Drupal 6-7, Symfony, Javascript, AngularJS, Hugo"
+
+
+  # Service section
+  [params.services]
+    headline = "Ingeniería web"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Análisis y Coordinación de proyectos"
+            description = "Amplia experiencia en proyectos web y soporte de clientes"
+
+        [[params.services.list]]
+      icon = "fa-paper-plane"
+      title = "Drupal"
+      description = "Conocimiento de Drupal usado como framework de desarrollo. Creación de módulos personalizados y uso avanzado de módulos contrib."
+
+    [[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "El saber no ocupa lugar, por ello un ingeniero necesita estar continuamente renovándose."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "El objetivo es la entrega puntual manteniendo un nivel de calidad alto siempre. Por ello un ingeniero se implica al máxmimo."
+
+
+    # Portfolio modals
+  [params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+  [params.aside]
+    headline = "Get the Creative Theme for Hugo"
+
+    [params.aside.button]
+      text = "Download now"
+      link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+  # Contact section
+  [params.contact]
+    headline = "Let's Get In Touch!"
+    description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+    phone = "+34 678 805 516"
+    email = "joseluis@falconramirez.es"
